@@ -6,7 +6,7 @@ const session = require('express-session');
 const passport = require('passport');
 const flash = require('connect-flash');
 const methodOverride = require('method-override');
-
+ 
 // inicializations
 const app = express();
 require('./config/passport');
